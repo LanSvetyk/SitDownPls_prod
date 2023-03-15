@@ -2361,6 +2361,7 @@ button.swiper-pagination-bullet {
   border: none;
   outline: none;
   padding-right: 20px;
+  background-color: transparent;
   background-image: url("./images/arrow-downprimary.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -4385,6 +4386,7 @@ button.swiper-pagination-bullet {
   background-color: transparent;
   outline: none;
   min-width: 30rem;
+  z-index: 2002;
 }
 @media (max-width: 1190px) {
   .select {
@@ -4408,7 +4410,7 @@ button.swiper-pagination-bullet {
 
 .choices {
   position: relative;
-  z-index: 2;
+  z-index: 2002;
 }
 
 .choices__list--single {
@@ -4426,6 +4428,7 @@ button.swiper-pagination-bullet {
   border: 0.2rem solid #f7f7f7;
   overflow: hidden;
   transition: border 0.3s ease-in-out;
+  z-index: 2002;
 }
 .choices__inner:focus {
   background-color: #a65cf0;
@@ -4441,6 +4444,7 @@ button.swiper-pagination-bullet {
 .is-open .choices__inner {
   border: 0.2rem solid #a65cf0;
   border-radius: 0 1rem 1rem 0;
+  z-index: 2002;
 }
 
 .choices__placeholder {
@@ -4518,6 +4522,7 @@ button.swiper-pagination-bullet {
   margin-top: 2.2rem;
   border-color: #a65cf0;
   background-color: #fff;
+  z-index: 2002;
 }
 
 /* стрелочка */
