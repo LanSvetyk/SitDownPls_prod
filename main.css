@@ -5863,7 +5863,7 @@ input[type=checkbox]:focus {
   line-height: 130%;
   color: #333;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .card-product__description .item__title {
     font-size: 1.7rem;
   }
@@ -5877,7 +5877,7 @@ input[type=checkbox]:focus {
   line-height: 100%;
   color: #999;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .card-product__description .item__subtitle {
     padding-right: 6.7rem;
   }
@@ -5890,7 +5890,7 @@ input[type=checkbox]:focus {
 .card-product__description .item__price .item__price--catalog {
   color: #333;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .card-product__description .item__price {
     margin: 2rem 0;
     font-size: 2.4rem;
@@ -5907,7 +5907,7 @@ input[type=checkbox]:focus {
   background-color: #a65cf0;
   color: #fff;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .card-product__description .item__btn {
     max-width: 100%;
     width: 100%;
@@ -5924,7 +5924,7 @@ input[type=checkbox]:focus {
   outline: none;
   background-color: transparent;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .card-product__description .item__btn--cart {
     margin-bottom: 0.6rem;
   }
@@ -5938,7 +5938,7 @@ input[type=checkbox]:focus {
   font-size: 3.2rem;
   line-height: 100%;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .buy__title {
     font-size: 2.4rem;
   }
@@ -5952,7 +5952,7 @@ input[type=checkbox]:focus {
   line-height: 136%;
   margin-bottom: 3rem;
 }
-@media (max-width: 350px) {
+@media (max-width: 480px) {
   .buy__text {
     width: 100%;
     margin-bottom: 1.6rem;
@@ -6252,7 +6252,7 @@ input[type=checkbox]:focus {
     position: relative;
     width: 2.7rem;
     height: 2.9rem;
-    z-index: 111111111;
+    z-index: 11111111;
     background-color: transparent;
   }
   .burger__line {
