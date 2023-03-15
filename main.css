@@ -2928,6 +2928,7 @@ button.swiper-pagination-bullet {
 }
 .special-offers__item {
   max-width: calc(21% - 3.2rem);
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;
