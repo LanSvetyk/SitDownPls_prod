@@ -2351,12 +2351,19 @@ button.swiper-pagination-bullet {
   margin-right: 0.5rem;
 }
 .header__top-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
   font-size: 1.6rem;
   line-height: 120%;
   color: #a65cf0;
   border: none;
   outline: none;
-  background: none;
+  padding-right: 20px;
+  background-image: url("./images/arrow-downprimary.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .header__top-nav {
   margin-left: auto;
@@ -4095,12 +4102,13 @@ button.swiper-pagination-bullet {
 }
 .tooltip__marker {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
   border: none;
   width: 1.4rem;
   height: 1.4rem;
   background-image: url("./images/icon-tooltip-def.svg");
   background-color: transparent;
+  background-repeat: no-repeat;
   transition: background-image 0.3s ease-in-out;
   outline: none;
   outline-offset: 0;
@@ -4110,17 +4118,17 @@ button.swiper-pagination-bullet {
   background-image: url("./images/icon-tooltip-foc.svg");
   transition: background-image 0.3s ease-in-out;
 }
-.tooltip__marker:focus + .tooltip__popup, .tooltip__marker:hover + .tooltip__popup {
+.tooltip__marker:focus .tooltip__popup, .tooltip__marker:hover .tooltip__popup {
   opacity: 1;
 }
-.tooltip__marker:focus + .tooltip__popup::after, .tooltip__marker:hover + .tooltip__popup::after {
+.tooltip__marker:focus .tooltip__popup::after, .tooltip__marker:hover .tooltip__popup::after {
   opacity: 1;
 }
 .tooltip__popup {
   position: absolute;
   display: block;
-  bottom: 54%;
-  left: 85%;
+  left: -72px;
+  bottom: 24px;
   padding: 0.5rem;
   min-height: 5.2rem;
   min-width: 15.7rem;
@@ -4524,7 +4532,7 @@ button.swiper-pagination-bullet {
   border-style: none;
   border-color: transparent;
   border-width: 0;
-  background-image: url("./images/arrow-rightgrey.svg");
+  background-image: url("./images/arrow-rightprimary.svg");
   background-repeat: no-repeat;
   background-position: center;
   transform: rotate(90deg);
@@ -4540,7 +4548,7 @@ button.swiper-pagination-bullet {
   height: 1.3rem;
   width: 0.8rem;
   position: absolute;
-  right: 2.5rem;
+  right: 3.5rem;
   top: 50%;
   margin-top: -0.55rem;
   border-style: none;
