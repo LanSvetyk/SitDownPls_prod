@@ -2477,7 +2477,7 @@ button.swiper-pagination-bullet {
     background-color: #f7f7f7;
     height: 0;
     opacity: 0;
-    z-index: 11111111;
+    z-index: 1111111;
   }
   .header__nav-list .nav__list .nav__item {
     margin-bottom: 2rem;
@@ -6008,7 +6008,7 @@ input[type=checkbox]:focus {
 @media (max-width: 480px) {
   .modal__inner {
     min-width: 29.6rem;
-    max-height: 43rem;
+    max-height: 46rem;
   }
 }
 .modal__close:hover::after {
@@ -6154,7 +6154,7 @@ input[type=checkbox]:focus {
     border: 2px solid #a65cf0;
     color: #a65cf0;
     transition: background-image 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
-    z-index: 9999999;
+    z-index: 9999998;
   }
   .mini-card__button-next {
     background-image: url("./images/arrow-rightprimary.svg");
@@ -6252,7 +6252,7 @@ input[type=checkbox]:focus {
     position: relative;
     width: 2.7rem;
     height: 2.9rem;
-    z-index: 11111111;
+    z-index: 9999999;
     background-color: transparent;
   }
   .burger__line {
