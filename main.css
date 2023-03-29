@@ -6450,7 +6450,7 @@ input[type=checkbox]:focus {
 }
 .header__select-wrapper .is-focused .choices__inner,
 .header__select-wrapper .is-open .choices__inner {
-  border-color: none;
+  border-color: transparent;
   background-color: #EBD1FF;
 }
 .header__select-wrapper .choices__inner,
