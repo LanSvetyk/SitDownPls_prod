@@ -4250,6 +4250,9 @@ button.swiper-pagination-bullet {
 }
 .form__check {
   margin-top: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 @media (max-width: 1190px) {
   .form__check {
